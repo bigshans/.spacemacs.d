@@ -1,0 +1,4 @@
+* 我的 spacemacs 配置
+** layers
+   - aerian 个人配置
+   - irony c++补全设置
