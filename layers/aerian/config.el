@@ -11,6 +11,7 @@
                               "xelatex -interaction nonstopmode %f"))
 (toggle-truncate-lines 1)
 ;; (load-library "find-lisp")
+<<<<<<< ours
 (setq org-agenda-files '(find-lisp-find-files "/mnt/D/agenda/" "\.org$"))
 (setq org-todo-key-words
       '((sequence "FUTURE(f)" "TODO(t)" "DONE(d)")
@@ -31,3 +32,6 @@
           (org-agenda-skip-function '(org-agenda-skip-entry-if 'notregexp ":DAILY:"))))
         ;; other commands here
         ))
+=======
+;; (setq org-agenda-files (find-lisp-find-files "~/文档/agenda/" "\.org$"))
+>>>>>>> theirs
