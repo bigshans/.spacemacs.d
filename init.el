@@ -47,11 +47,12 @@ values."
      c-c++
      emacs-lisp
      ;; git
-     markdown
+     (markdown :variables markdown-live-preview-engine 'vmd)
      ruby
      org
      (python :variables python-enable-yapf-format-on-save t)
      html
+     lsp
      ;; flymake
      ;; elpy
      aerian   ;; private layers
@@ -59,7 +60,9 @@ values."
      git
      vimscript
      ranger
-     chinese
+     aerian
+     irony
+     (chinese :variables chinese-enable-fcitx t)
      ;; (shell :variables
      ;;        shell-default-height 30
      ;;        shell-default-position 'bottom)
@@ -76,6 +79,7 @@ values."
                                       swiper
                                       ;; flycheck-irony
                                       ;; w3m
+                                      xwidgete
                                       ;; company-anaconda
                                       ;; company-irony
                                       ;; irony
